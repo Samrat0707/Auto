@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SmokSuite">
+	<test thread-count="5" name="Test">
+		<classes>
+
+
+			<class name="com.autoSigma.testClass.Tc_Login_01" />
+			
+
+
+			<class name="com.autoSigma.testClass.Tc_Manufacture_01" />
+			<class name="com.autoSigma.testClass.Tc_Addmodel_01" />
+			<class name="com.autoSigma.testClass.Tc_Region_01" />
+			<class name="com.autoSigma.testClass.Tc_Dealer_01" />
+			<class name="com.autoSigma.testClass.Tc_User_01" />
+
+
+			<class name="com.autoSigma.testClass.Tc_Offerpage_01" />
+			<class name="com.AutoSigmaManageOffer.TestClass.Tc_LeaseDeskingTool_01" />
+
+			<class name="com.autoSigma.testClass.Tc_FinancePayment_01" />
+			<class name="com.AutoSigmaManageOffer.TestClass.Tc_FinanceDeskingTool_01" />
+
+			<class name="com.autoSigma.testClass.TC_SpecialApr_01" />
+			<class name="com.AutoSigmaManageOffer.TestClass.Tc_SpecialAprDeskingTool_01" />
+			
+			<class name="com.autoSigma.testClass.Tc_TotalSavings_01" />
+			<class name="com.AutoSigmaManageOffer.TestClass.Tc_TotalsavingDeskingTool_01" />
+
+			<class name="com.autoSigma.testClass.Tc_BuyFor_01" />
+			<class name="com.AutoSigmaManageOffer.TestClass.Tc_BuyForDeskingTool_01" />
+
+			<class name="com.autoSigma.testClass.TC_OffMsrp_01" />
+		<class name="com.AutoSigmaManageOffer.TestClass.Tc_OffMSRPDeskingTool_01" />	
+
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- SmokSuite -->
