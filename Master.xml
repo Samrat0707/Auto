@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MasterSuite">
+	<test thread-count="5" name="Test">
+		<classes>
+
+			<!--Add New & New Offer-->
+
+			<class name="com.autoSigma.testClass.Tc_Login_01" />
+			<class name="com.autoSigma.testClass.Tc_Manufacture_01" />
+			<class name="com.autoSigma.testClass.Tc_Addmodel_01" />
+			<class name="com.autoSigma.testClass.Tc_Region_01" />
+			<class name="com.autoSigma.testClass.Tc_Dealer_01" />
+			<class name="com.autoSigma.testClass.Tc_User_01" />
+
+			<class name="com.autoSigma.testClass.Tc_Offerpage_01" />
+			<class name="com.AutoSigmaManageOffer.TestClass.Tc_LeaseDeskingTool_01" />
+
+			<class name="com.autoSigma.testClass.Tc_FinancePayment_01" />
+			<class name="com.AutoSigmaManageOffer.TestClass.Tc_FinanceDeskingTool_01" />
+
+
+			<class name="com.autoSigma.testClass.TC_SpecialApr_01" />
+			<class name="com.AutoSigmaManageOffer.TestClass.Tc_SpecialAprDeskingTool_01" />
+
+			<class name="com.autoSigma.testClass.Tc_TotalSavings_01" />
+			<class name="com.AutoSigmaManageOffer.TestClass.Tc_TotalsavingDeskingTool_01" />
+
+			<class name="com.autoSigma.testClass.Tc_BuyFor_01" />
+			<class name="com.AutoSigmaManageOffer.TestClass.Tc_BuyForDeskingTool_01" />
+
+			<class name="com.autoSigma.testClass.TC_OffMsrp_01" />
+			<class name="com.AutoSigmaManageOffer.TestClass.Tc_OffMSRPDeskingTool_01" />
+
+
+			<class name="com.AutoSigmaAssets.TestClass.Tc_Text_Assets" />
+			<class name="com.AutoSigmaAssets.TestClass.Tc_Font_Assets" />
+			<class name="com.AutoSigmaAssets.TestClass.Tc_Shape_Assets" />
+			<class name="com.AutoSigmaAssets.TestClass.Tc_BackgroundImage_Assets" />
+			<class name="com.AutoSigmaAssets.TestClass.Tc_Image_Assets" />
+
+
+			<class name="com.AutosigmaFixedOpts.TestClass.Tc_Service_TotalSavings" />
+			<class name="com.AutosigmaFixedOpts.TestClass.Tc_Service_BuyFor" />
+			<class name="com.AutosigmaFixedOpts.TestClass.Tc_Service_OffMSRP" />
+
+
+			<class name="com.AutosigmaFixedOpts.TestClass.Tc_PartAccessories_TotalSavings" />
+			<class name="com.AutosigmaFixedOpts.TestClass.Tc_PartsAccessories_BuyFor" />
+			<class name="com.AutosigmaFixedOpts.TestClass.Tc_PreOwned" />
+
+			<class name="com.AutosigmaFixedOpts.TestClass.Tc_PartAccessories_OffMSRP" />
+
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
