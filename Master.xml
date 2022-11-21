@@ -13,7 +13,7 @@
 			<class name="com.autoSigma.testClass.Tc_Dealer_01" />
 			<class name="com.autoSigma.testClass.Tc_User_01" />
 
-		<!--	<class name="com.autoSigma.testClass.Tc_Offerpage_01" />
+			<class name="com.autoSigma.testClass.Tc_Offerpage_01" />
 			<class name="com.AutoSigmaManageOffer.TestClass.Tc_LeaseDeskingTool_01" />
 
 			<class name="com.autoSigma.testClass.Tc_FinancePayment_01" />
@@ -40,7 +40,7 @@
 			<class name="com.AutoSigmaAssets.TestClass.Tc_Image_Assets" />
 
 
-			<class name="com.AutosigmaFixedOpts.TestClass.Tc_Service_TotalSavings" />
+		<!--	<class name="com.AutosigmaFixedOpts.TestClass.Tc_Service_TotalSavings" />
 			<class name="com.AutosigmaFixedOpts.TestClass.Tc_Service_BuyFor" />
 			<class name="com.AutosigmaFixedOpts.TestClass.Tc_Service_OffMSRP" />
 
